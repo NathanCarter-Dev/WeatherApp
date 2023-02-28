@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,90 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.app {
+
+  background-size:contain;
+  
+  background-size: cover;
+  transition: background 0.4s ease-in-out;
+  height: 100%;
+  background: linear-gradient(#3db990, #71b3ff);
+  display: flex;
+  justify-content: center;
+}
+
+.app.warm {
+  transition: background 0.4s ease-in-out;
+  background: linear-gradient(#b94b3d, #FFC371);
+
+}
+main {
+  font-family: 'Roboto';
+height: 100vh;
+}
+.search-box {
+  display: flex;
+  padding-top: 4em;
+  justify-content: center;
+  color: white;
+  
+}
+.search-bar {
+  color: white;
+  width: 70%;
+  text-align: center;
+}
+.weather-attributes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.weather {
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: white;
+  
+}
+
+.location {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  
+}
+
+.temp {
+  font-weight: 700;
+  font-size: 8rem;
+  color: white;
+}
+
+.date {
+  font-weight: 100;
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+.container {
+  background-color: #2E38402f;
+  box-shadow: 0px 32px 61px -21px rgba(0 0,0,0.7);
+  width: 300px;
+  border-radius: 2em;
+  padding: 2em;
+  margin: 2em;
+ 
+}
+
+img {
+  margin: 0;
+  width:80%;
+  height: 80%;
 }
